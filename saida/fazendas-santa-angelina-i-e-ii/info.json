@@ -1,0 +1,12 @@
+{
+ "arquivo": "fazendas-santa-angelina-i-e-ii.geojson",
+ "poligonos": 2,
+ "capa": {
+  "tiles": 35,
+  "falhas": 0
+ },
+ "escopo": {
+  "tiles": 18,
+  "falhas": 0
+ }
+}
