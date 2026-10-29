@@ -1,0 +1,12 @@
+{
+ "arquivo": "fazenda-santa-rita-do-jauru.kml",
+ "poligonos": 5,
+ "capa": {
+  "tiles": 15,
+  "falhas": 0
+ },
+ "escopo": {
+  "tiles": 28,
+  "falhas": 0
+ }
+}
