@@ -1,0 +1,12 @@
+{
+ "arquivo": "fazenda-santo-adriano.kml",
+ "poligonos": 1,
+ "capa": {
+  "tiles": 28,
+  "falhas": 0
+ },
+ "escopo": {
+  "tiles": 24,
+  "falhas": 0
+ }
+}
