@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:ns2="http://www.google.com/kml/ext/2.2" xmlns:ns3="http://www.w3.org/2005/Atom" xmlns:ns4="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0">
+    <Document>
+        <Schema name="CAR_ATP_1" id="CAR_ATP_1">
+            <SimpleField type="string" name="NOMESPROPRIETARIOS"/>
+            <SimpleField type="string" name="NUMEROESTADUAL"/>
+            <SimpleField type="string" name="CAR_FEDERAL"/>
+            <SimpleField type="string" name="PROTOCOLO"/>
+            <SimpleField type="string" name="NOMEPROPRIEDADE"/>
+            <SimpleField type="string" name="ATIVIDADE"/>
+            <SimpleField type="string" name="SITUACAO_CAR"/>
+            <SimpleField type="string" name="APF_NUMERO"/>
+            <SimpleField type="string" name="NUMERO_ART"/>
+            <SimpleField type="string" name="MIGRACAO_ID"/>
+            <SimpleField type="string" name="CODIGO"/>
+            <SimpleField type="string" name="REQUERIMENTO_ID"/>
+            <SimpleField type="string" name="MUNICIPIO_CODIGO"/>
+            <SimpleField type="string" name="MODULOS_FISCAIS"/>
+            <SimpleField type="string" name="PERCENTUAL_SIGEF"/>
+            <SimpleField type="string" name="AREA_HA"/>
+        </Schema>
+        <Folder>
+            <name>CAR_ATP</name>
+            <Placemark id="CAR_ATP.400383">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#CAR_ATP_1">
+                        <SimpleData name="NOMESPROPRIETARIOS">83297663000147 - Sipal SA Industria E Comércio E Agropecuária</SimpleData>
+                        <SimpleData name="NUMEROESTADUAL">MT255918/2024</SimpleData>
+                        <SimpleData name="CAR_FEDERAL">MT-5107925-F4AE192034604416A635575F25415716</SimpleData>
+                        <SimpleData name="NOMEPROPRIEDADE">Fazenda Formigal</SimpleData>
+                        <SimpleData name="ATIVIDADE">[CAR]</SimpleData>
+                        <SimpleData name="SITUACAO_CAR">[AGUARDANDO_ENVIO_PRA]</SimpleData>
+                        <SimpleData name="CODIGO">1040177</SimpleData>
+                        <SimpleData name="REQUERIMENTO_ID">405480</SimpleData>
+                        <SimpleData name="MUNICIPIO_CODIGO">5107925</SimpleData>
+                        <SimpleData name="MODULOS_FISCAIS">3.32</SimpleData>
+                        <SimpleData name="PERCENTUAL_SIGEF">0</SimpleData>
+                        <SimpleData name="AREA_HA">299.0241</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Polygon>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <tessellate>1</tessellate>
+                            <coordinates>-55.62069923181035,-13.2956919202917 -55.62371622081035,-13.2989155562917 -55.62673320908299,-13.302139192435323 -55.62849620208299,-13.304022836435323 -55.630259195315745,-13.305906479777672 -55.63308798331575,-13.308943473777672 -55.635916772315746,-13.311980466777673 -55.63874556031575,-13.315017460777671 -55.64157434831574,-13.318054453777671 -55.64440313731574,-13.321091447777672 -55.647231925315744,-13.324128440777672 -55.65006071352337,-13.327165434323643 -55.649971672454654,-13.32977828983616 -55.64689336593601,-13.328024420290717 -55.64395778002748,-13.326231389766816 -55.64094644602748,-13.323013445766817 -55.63793511202748,-13.319795501766816 -55.63492377802748,-13.316577557766816 -55.63191244402748,-13.313359613766815 -55.6289011099982,-13.310141670301755 -55.6262010629982,-13.307254540301756 -55.6235010169982,-13.304367410301754 -55.6208009699982,-13.301480280301755 -55.6181009229982,-13.298593150301755 -55.6154008759982,-13.295706020301756 -55.612700829679525,-13.292818890379476 -55.61042471967953,-13.290385280379477 -55.608148609870376,-13.28795167043317 -55.61141499987038,-13.28502111543317 -55.614681390433766,-13.28209056023109 -55.61672861043377,-13.28427931023109 -55.61877583014041,-13.286468059753098 -55.616952775140405,-13.288104309753098 -55.615129719560834,-13.289740559579121 -55.61791447556083,-13.292716239579121 -55.62069923181035,-13.2956919202917</coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+        </Folder>
+    </Document>
+</kml>
