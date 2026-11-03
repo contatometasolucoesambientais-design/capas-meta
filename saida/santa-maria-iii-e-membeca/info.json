@@ -1,0 +1,12 @@
+{
+ "arquivo": "santa-maria-iii-e-membeca.kml",
+ "poligonos": 2,
+ "capa": {
+  "tiles": 24,
+  "falhas": 0
+ },
+ "escopo": {
+  "tiles": 15,
+  "falhas": 0
+ }
+}

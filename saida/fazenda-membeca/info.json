@@ -1,0 +1,12 @@
+{
+ "arquivo": "fazenda-membeca.kml",
+ "poligonos": 1,
+ "capa": {
+  "tiles": 18,
+  "falhas": 0
+ },
+ "escopo": {
+  "tiles": 15,
+  "falhas": 0
+ }
+}

@@ -1,0 +1,12 @@
+{
+ "arquivo": "agropecuaria-santa-maria-iii.kml",
+ "poligonos": 1,
+ "capa": {
+  "tiles": 24,
+  "falhas": 0
+ },
+ "escopo": {
+  "tiles": 15,
+  "falhas": 0
+ }
+}
