@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:ns2="http://www.google.com/kml/ext/2.2" xmlns:ns3="http://www.w3.org/2005/Atom" xmlns:ns4="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0">
+    <Document>
+        <Schema name="CAR_ATP_1" id="CAR_ATP_1">
+            <SimpleField type="string" name="NOMESPROPRIETARIOS"/>
+            <SimpleField type="string" name="NUMEROESTADUAL"/>
+            <SimpleField type="string" name="CAR_FEDERAL"/>
+            <SimpleField type="string" name="PROTOCOLO"/>
+            <SimpleField type="string" name="NOMEPROPRIEDADE"/>
+            <SimpleField type="string" name="ATIVIDADE"/>
+            <SimpleField type="string" name="SITUACAO_CAR"/>
+            <SimpleField type="string" name="APF_NUMERO"/>
+            <SimpleField type="string" name="NUMERO_ART"/>
+            <SimpleField type="string" name="MIGRACAO_ID"/>
+            <SimpleField type="string" name="CODIGO"/>
+            <SimpleField type="string" name="REQUERIMENTO_ID"/>
+            <SimpleField type="string" name="MUNICIPIO_CODIGO"/>
+            <SimpleField type="string" name="MODULOS_FISCAIS"/>
+            <SimpleField type="string" name="PERCENTUAL_SIGEF"/>
+            <SimpleField type="string" name="AREA_HA"/>
+        </Schema>
+        <Folder>
+            <name>CAR_ATP</name>
+            <Placemark id="CAR_ATP.1001364">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#CAR_ATP_1">
+                        <SimpleData name="NOMESPROPRIETARIOS">XXX312838XX - Eliana Maria Geralde Araujo; XXX950988XX - Evaldo Emilio De Araujo</SimpleData>
+                        <SimpleData name="NUMEROESTADUAL">MT81814/2018</SimpleData>
+                        <SimpleData name="CAR_FEDERAL">MT-5107859-55A39C53A728469DB52AF7ABADE6B5AB</SimpleData>
+                        <SimpleData name="PROTOCOLO">MT-5107859-A072.0F60.A3DA.D37A.C1F3.9BC1.7E83.0E87</SimpleData>
+                        <SimpleData name="NOMEPROPRIEDADE">FAZENDA TARUMÃ II</SimpleData>
+                        <SimpleData name="ATIVIDADE">[CAR]</SimpleData>
+                        <SimpleData name="SITUACAO_CAR">[AGUARDANDO_ENVIO_PRA]</SimpleData>
+                        <SimpleData name="APF_NUMERO">7493/2018</SimpleData>
+                        <SimpleData name="NUMERO_ART">1220220238008</SimpleData>
+                        <SimpleData name="MIGRACAO_ID">152480</SimpleData>
+                        <SimpleData name="CODIGO">1259490</SimpleData>
+                        <SimpleData name="REQUERIMENTO_ID">1007215</SimpleData>
+                        <SimpleData name="MUNICIPIO_CODIGO">5107859</SimpleData>
+                        <SimpleData name="MODULOS_FISCAIS">26.47</SimpleData>
+                        <SimpleData name="PERCENTUAL_SIGEF">100</SimpleData>
+                        <SimpleData name="AREA_HA">2117.6658</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Polygon>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <tessellate>1</tessellate>
+                            <coordinates>-52.73287971999996,-11.352849999999956 -52.73384749199996,-11.348492702999955 -52.734815263999955,-11.344135405999957 -52.73578303599996,-11.339778108999957 -52.73675080899996,-11.335420811999956 -52.73771858099996,-11.331063514999956 -52.738686352999956,-11.326706216999956 -52.73965412499996,-11.322348919999955 -52.74062189711335,-11.317991623305312 -52.74467798511335,-11.318878100305312 -52.74873407411335,-11.319764576305312 -52.75279016211335,-11.320651053305312 -52.75684625011335,-11.321537530305312 -52.76090233811335,-11.322424006305312 -52.76495842711335,-11.323310483305312 -52.76901451511335,-11.324196960305311 -52.77307060311335,-11.325083436305311 -52.77712669211335,-11.325969913305313 -52.78118278000004,-11.326856389999966 -52.779903696000034,-11.331102417999967 -52.77862461200004,-11.335348445999966 -52.77734552800004,-11.339594473999966 -52.77606644400004,-11.343840501999965 -52.77478736000004,-11.348086529999966 -52.77350827600004,-11.352332557999967 -52.77222919200004,-11.356578585999966 -52.77095010800004,-11.360824613999966 -52.76967102400004,-11.365070641999965 -52.76839193999999,-11.369316669999943 -52.76422144699999,-11.368340805999942 -52.76005095299999,-11.367364940999943 -52.755880459999986,-11.366389076999942 -52.75170996699999,-11.365413211999943 -52.74753947299999,-11.364437347999942 -52.743368979999985,-11.363461482999943 -52.73919848699999,-11.362485618999942 -52.73502799299999,-11.361509753999943 -52.73085749999997,-11.36053388999998 -52.73186860999997,-11.35669194499998 -52.73287971999996,-11.352849999999956</coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+        </Folder>
+    </Document>
+</kml>
