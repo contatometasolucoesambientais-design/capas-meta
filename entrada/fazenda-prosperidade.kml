@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>ATP.shp</name>
+	<open>1</open>
+	<Schema name="ATP" id="S_ATP_">
+		<SimpleField type="long" name="ID"><displayName>&lt;b&gt;ID&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<Style id="falseColor">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>ID</b></td><td>$[ATP/ID]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+			<colorMode>random</colorMode>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor1">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>ID</b></td><td>$[ATP/ID]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+			<colorMode>random</colorMode>
+		</PolyStyle>
+	</Style>
+	<Folder id="layer 0">
+		<name>ATP</name>
+		<Placemark>
+			<styleUrl>#falseColor0</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ATP_">
+					<SimpleData name="ID">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-52.08511744079604,-13.85220038818225,0 -52.08542092850708,-13.85255904235105,0 -52.08478934981472,-13.85359826231212,0 -52.08535755522896,-13.85401559272011,0 -52.08632793405371,-13.85352689123453,0 -52.08698680398668,-13.8544385200779,0 -52.08799539097036,-13.85386954231812,0 -52.0898410441303,-13.85408970152474,0 -52.09004946433458,-13.85451675801022,0 -52.09101714186824,-13.85408563941289,0 -52.09414694614582,-13.85338775014346,0 -52.09383556422429,-13.85381676338273,0 -52.09502000373996,-13.85417191964581,0 -52.09462508090285,-13.85487984934801,0 -52.09535443973722,-13.85528667066902,0 -52.09687903432268,-13.85456012100277,0 -52.09888305842338,-13.85492812936494,0 -52.09995278767516,-13.86024002293774,0 -52.10477309253207,-13.86095910029953,0 -52.06424971766724,-13.86817233269628,0 -52.06455379189799,-13.86610358129202,0 -52.06438237881862,-13.86449019928023,0 -52.06376404893509,-13.86304113100459,0 -52.067781901356,-13.86059882678213,0 -52.06583776282392,-13.85752044141304,0 -52.06181214084783,-13.86001834620856,0 -52.06082680422271,-13.85849446568606,0 -52.05936123710089,-13.85623213277237,0 -52.06924844028941,-13.85534520273634,0 -52.07187056507954,-13.85977479715672,0 -52.08137658160457,-13.85294145452266,0 -52.08359018576158,-13.85363638930358,0 -52.08466146011083,-13.85219861110476,0 -52.08511744079604,-13.85220038818225,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
