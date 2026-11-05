@@ -10,7 +10,9 @@ from PIL import Image, ImageDraw
 W, H, T, MAXZ, RESERVA, ESCALA = 1280, 720, 256, 18, 0.54, 2
 COR, ESPESSURA = (255, 242, 0), 2.5
 TILE = "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
-MARGEM = {"capa": 90, "escopo": 40}
+MARGEM = {"capa": 90, "escopo": (170, 140)}  # escopo: (laterais, topo/base)
+# Na pag. 08 a foto fica num quadro ~483x214 (cover): corta ~75 px em cima e embaixo.
+# A margem vertical maior mantem o perimetro inteiro visivel nesse quadro.
 
 
 def lx(lon):
@@ -112,11 +114,12 @@ def ler(caminho):
 
 def enquadrar(modo, rings):
     p = MARGEM[modo]
+    px, py = p if isinstance(p, tuple) else (p, p)
     xs = [lx(a) for r in rings for a, _ in r]
     ys = [ly(b) for r in rings for _, b in r]
     minx, maxx, miny, maxy = min(xs), max(xs), min(ys), max(ys)
-    esq = (round(W * RESERVA) if modo == "capa" else 0) + p
-    dir_, top, base = W - p, p, H - p
+    esq = (round(W * RESERVA) if modo == "capa" else 0) + px
+    dir_, top, base = W - px, py, H - py
     lw, lh = max(40, dir_ - esq), max(40, base - top)
     bw, bh = max(maxx - minx, 1e-9), max(maxy - miny, 1e-9)
     zoom = max(3, min(MAXZ, math.log2(min(lw / bw, lh / bh))))
