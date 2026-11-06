@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:ns2="http://www.google.com/kml/ext/2.2" xmlns:ns3="http://www.w3.org/2005/Atom" xmlns:ns4="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0">
+    <Document>
+        <Schema name="MVW_REQUERIMENTO_ATP_1" id="MVW_REQUERIMENTO_ATP_1">
+            <SimpleField type="string" name="OBJECTID"/>
+            <SimpleField type="string" name="NOMESPROPRIETARIOS"/>
+            <SimpleField type="string" name="NUMEROESTADUAL"/>
+            <SimpleField type="string" name="CODIGO_CAR_FEDERAL"/>
+            <SimpleField type="string" name="PROTOCOLO"/>
+            <SimpleField type="string" name="NOMEPROPRIEDADE"/>
+            <SimpleField type="string" name="ATIVIDADE"/>
+            <SimpleField type="string" name="SITUACAO"/>
+            <SimpleField type="string" name="APF_NUMERO"/>
+            <SimpleField type="string" name="NUMERO_ART"/>
+            <SimpleField type="string" name="MIGRACAO_ID"/>
+            <SimpleField type="string" name="CODIGO"/>
+            <SimpleField type="string" name="REQUERIMENTO_ID"/>
+            <SimpleField type="string" name="MUNICIPIO_CODIGO"/>
+            <SimpleField type="string" name="MODULOS_FISCAIS"/>
+            <SimpleField type="string" name="PERCENTUAL_SIGEF"/>
+            <SimpleField type="string" name="AREA_HA"/>
+            <SimpleField type="string" name="SUSPENSOS"/>
+        </Schema>
+        <Folder>
+            <name>MVW_REQUERIMENTO_ATP</name>
+            <Placemark id="MVW_REQUERIMENTO_ATP.64913">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#MVW_REQUERIMENTO_ATP_1">
+                        <SimpleData name="OBJECTID">64913</SimpleData>
+                        <SimpleData name="NOMESPROPRIETARIOS">XXX173XXX20 - Airton Nogueira Costa</SimpleData>
+                        <SimpleData name="NUMEROESTADUAL">MT168155/2019</SimpleData>
+                        <SimpleData name="CODIGO_CAR_FEDERAL">MT-5106505-B1D803E30E9B442BB1BB63620927D30F</SimpleData>
+                        <SimpleData name="PROTOCOLO">MT-5106505-D65C.48DF.9A96.6810.3B55.5ADC.DD56.01C8</SimpleData>
+                        <SimpleData name="NOMEPROPRIEDADE">FAZENDA SÃO GONÇALO</SimpleData>
+                        <SimpleData name="ATIVIDADE">[CAR]</SimpleData>
+                        <SimpleData name="SITUACAO">[EM_ANALISE]</SimpleData>
+                        <SimpleData name="CODIGO">770034</SimpleData>
+                        <SimpleData name="REQUERIMENTO_ID">311574</SimpleData>
+                        <SimpleData name="MUNICIPIO_CODIGO">5106505</SimpleData>
+                        <SimpleData name="MODULOS_FISCAIS">8.96</SimpleData>
+                        <SimpleData name="PERCENTUAL_SIGEF">100</SimpleData>
+                        <SimpleData name="AREA_HA">716.8284</SimpleData>
+                        <SimpleData name="SUSPENSOS">0</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Polygon>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <tessellate>1</tessellate>
+                            <coordinates>-56.70521837421344,-16.1075608961442 -56.70901741521344,-16.1093780651442 -56.71281645621344,-16.1111952341442 -56.71661549721344,-16.1130124041442 -56.72041453821344,-16.1148295731442 -56.72421357885852,-16.116646742108 -56.724239844858516,-16.119412121108 -56.72426611,-16.122177499999992 -56.7238463212301,-16.123949048679346 -56.7221971092301,-16.126961301679344 -56.7205478982301,-16.129973554679346 -56.7188986862301,-16.132985807679347 -56.717249475012295,-16.13599806100216 -56.7157875000123,-16.13879889100216 -56.71432552517073,-16.141599721255904 -56.71131507017073,-16.140097182255904 -56.70830461517073,-16.138594642255903 -56.705294159646535,-16.137092103402907 -56.70200827440207,-16.135436707911957 -56.70090015040207,-16.137460879911956 -56.699792026876956,-16.139485051937516 -56.69975836992572,-16.139165705074543 -56.69595317492572,-16.13823131007454 -56.69214798075132,-16.137296915611014 -56.69393992875132,-16.134046155611014 -56.69573187575132,-16.130795394611013 -56.69752382382669,-16.127544634239705 -56.69968989682669,-16.126376796239704 -56.70185597052536,-16.12520895730935 -56.702243564867885,-16.124433035394496 -56.70076171935835,-16.121492987097824 -56.70268962554508,-16.117621499992758 -56.70349267268771,-16.114413160917056 -56.70435552368771,-16.110987028917055 -56.70521837421344,-16.1075608961442</coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+        </Folder>
+    </Document>
+</kml>
