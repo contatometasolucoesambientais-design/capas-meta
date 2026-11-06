@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:ns2="http://www.google.com/kml/ext/2.2" xmlns:ns3="http://www.w3.org/2005/Atom" xmlns:ns4="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0">
+    <Document>
+        <Schema name="CAR_ATP_1" id="CAR_ATP_1">
+            <SimpleField type="string" name="NOMESPROPRIETARIOS"/>
+            <SimpleField type="string" name="NUMEROESTADUAL"/>
+            <SimpleField type="string" name="CAR_FEDERAL"/>
+            <SimpleField type="string" name="PROTOCOLO"/>
+            <SimpleField type="string" name="NOMEPROPRIEDADE"/>
+            <SimpleField type="string" name="ATIVIDADE"/>
+            <SimpleField type="string" name="SITUACAO_CAR"/>
+            <SimpleField type="string" name="APF_NUMERO"/>
+            <SimpleField type="string" name="NUMERO_ART"/>
+            <SimpleField type="string" name="MIGRACAO_ID"/>
+            <SimpleField type="string" name="CODIGO"/>
+            <SimpleField type="string" name="REQUERIMENTO_ID"/>
+            <SimpleField type="string" name="MUNICIPIO_CODIGO"/>
+            <SimpleField type="string" name="MODULOS_FISCAIS"/>
+            <SimpleField type="string" name="PERCENTUAL_SIGEF"/>
+            <SimpleField type="string" name="AREA_HA"/>
+        </Schema>
+        <Folder>
+            <name>CAR_ATP</name>
+            <Placemark id="CAR_ATP.1456517">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#CAR_ATP_1">
+                        <SimpleData name="NOMESPROPRIETARIOS">XXX553471XX - Marcia Regina Morais Costa; XXX173068XX - Airton Nogueira Costa</SimpleData>
+                        <SimpleData name="NUMEROESTADUAL">MT63115/2018</SimpleData>
+                        <SimpleData name="CAR_FEDERAL">MT-5106505-EA32431DACE14D398B4C9CD9EC2746A6</SimpleData>
+                        <SimpleData name="NOMEPROPRIEDADE">FAZENDA SÃO BENTO DA SALOBRA</SimpleData>
+                        <SimpleData name="ATIVIDADE">[CAR]</SimpleData>
+                        <SimpleData name="SITUACAO_CAR">[AGUARDANDO_ENVIO_PRA]</SimpleData>
+                        <SimpleData name="MIGRACAO_ID">129661</SimpleData>
+                        <SimpleData name="CODIGO">1423301</SimpleData>
+                        <SimpleData name="REQUERIMENTO_ID">1462779</SimpleData>
+                        <SimpleData name="MUNICIPIO_CODIGO">5106505</SimpleData>
+                        <SimpleData name="MODULOS_FISCAIS">11.11</SimpleData>
+                        <SimpleData name="PERCENTUAL_SIGEF">37.96</SimpleData>
+                        <SimpleData name="AREA_HA">888.9124</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Polygon>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <tessellate>1</tessellate>
+                            <coordinates>-56.75893166,-16.00830326 -56.7624862,-16.00611618 -56.76604073,-16.00392909 -56.76784529,-16.00741067 -56.76831082,-16.00865639 -56.7695785,-16.00771015 -56.77107465,-16.01075074 -56.7725708,-16.01379133 -56.77406696,-16.01683192 -56.77550976,-16.01975026 -56.77695256,-16.0226686 -56.77839536,-16.02558694 -56.78007637,-16.02906359 -56.77648791,-16.02948414 -56.77289945,-16.0299047 -56.76931099,-16.03032525 -56.76533214,-16.03220294 -56.76135328,-16.03408062 -56.75737443,-16.0359583 -56.75708917,-16.03522517 -56.7561676,-16.03440399 -56.75506568,-16.0357605 -56.75372835,-16.03590045 -56.75064083,-16.03428167 -56.7475533,-16.03266288 -56.74446578,-16.0310441 -56.74165118,-16.03100393 -56.7426841,-16.02846702 -56.74036704,-16.02755097 -56.74055966,-16.02331383 -56.73815234,-16.02299043 -56.73971378,-16.0203902 -56.74127522,-16.01778998 -56.74184775,-16.01516486 -56.74242027,-16.01253974 -56.74478398,-16.01473879 -56.74714769,-16.01693785 -56.7495114,-16.0191369 -56.75147479,-16.01862289 -56.75286684,-16.01452931 -56.7542589,-16.01043574 -56.75659528,-16.0093695 -56.75893166,-16.00830326</coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+        </Folder>
+    </Document>
+</kml>
