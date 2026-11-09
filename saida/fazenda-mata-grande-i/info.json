@@ -1,0 +1,12 @@
+{
+ "arquivo": "fazenda-mata-grande-i.kml",
+ "poligonos": 1,
+ "capa": {
+  "tiles": 35,
+  "falhas": 0
+ },
+ "escopo": {
+  "tiles": 35,
+  "falhas": 0
+ }
+}
