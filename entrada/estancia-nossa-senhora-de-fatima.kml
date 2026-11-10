@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:ns2="http://www.google.com/kml/ext/2.2" xmlns:ns3="http://www.w3.org/2005/Atom" xmlns:ns4="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0">
+    <Document>
+        <Schema name="CAR_ATP_1" id="CAR_ATP_1">
+            <SimpleField type="string" name="NOMESPROPRIETARIOS"/>
+            <SimpleField type="string" name="NUMEROESTADUAL"/>
+            <SimpleField type="string" name="CAR_FEDERAL"/>
+            <SimpleField type="string" name="PROTOCOLO"/>
+            <SimpleField type="string" name="NOMEPROPRIEDADE"/>
+            <SimpleField type="string" name="ATIVIDADE"/>
+            <SimpleField type="string" name="SITUACAO_CAR"/>
+            <SimpleField type="string" name="APF_NUMERO"/>
+            <SimpleField type="string" name="NUMERO_ART"/>
+            <SimpleField type="string" name="MIGRACAO_ID"/>
+            <SimpleField type="string" name="CODIGO"/>
+            <SimpleField type="string" name="REQUERIMENTO_ID"/>
+            <SimpleField type="string" name="MUNICIPIO_CODIGO"/>
+            <SimpleField type="string" name="MODULOS_FISCAIS"/>
+            <SimpleField type="string" name="PERCENTUAL_SIGEF"/>
+            <SimpleField type="string" name="AREA_HA"/>
+        </Schema>
+        <Folder>
+            <name>CAR_ATP</name>
+            <Placemark id="CAR_ATP.1356363">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#CAR_ATP_1">
+                        <SimpleData name="NOMESPROPRIETARIOS">XXX092891XX - Joao Gualberto Antonio Da Silva</SimpleData>
+                        <SimpleData name="NUMEROESTADUAL">MT64734/2020</SimpleData>
+                        <SimpleData name="CAR_FEDERAL">MT-5100102-9B481CF771954C07AE06CFAF4AAE4086</SimpleData>
+                        <SimpleData name="PROTOCOLO">MT-5100102-376D.A86D.CAE7.F73A.E727.3D2C.4602.1CBF</SimpleData>
+                        <SimpleData name="NOMEPROPRIEDADE">Estância Nossa Senhora de Fátima</SimpleData>
+                        <SimpleData name="ATIVIDADE">[CAR]</SimpleData>
+                        <SimpleData name="SITUACAO_CAR">[AGUARDANDO_ENVIO_PRA]</SimpleData>
+                        <SimpleData name="MIGRACAO_ID">131587</SimpleData>
+                        <SimpleData name="CODIGO">1392198</SimpleData>
+                        <SimpleData name="REQUERIMENTO_ID">1362600</SimpleData>
+                        <SimpleData name="MUNICIPIO_CODIGO">5100102</SimpleData>
+                        <SimpleData name="MODULOS_FISCAIS">3.95</SimpleData>
+                        <SimpleData name="PERCENTUAL_SIGEF">0.15</SimpleData>
+                        <SimpleData name="AREA_HA">316.0806</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Polygon>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <tessellate>1</tessellate>
+                            <coordinates>-56.31021222889086,-15.166244366981573 -56.311678299890865,-15.168560070981574 -56.313144370583586,-15.170875774607225 -56.31297591949141,-15.171007648788759 -56.31022739949141,-15.173211509788759 -56.307478879999906,-15.175415369999882 -56.30464072385843,-15.177589737327764 -56.30118230685843,-15.180239298327765 -56.29772388999993,-15.182888859999991 -56.29662799999994,-15.18195462999995 -56.29649276128265,-15.181998804913292 -56.2936272099999,-15.1829348199999 -56.2915652249999,-15.1816176249999 -56.28950323999993,-15.180300429999875 -56.29083722399993,-15.178370788999874 -56.292171207860065,-15.176441147064338 -56.293497264860065,-15.174522973064338 -56.29482332114674,-15.172604798170312 -56.29548150622509,-15.171652716820745 -56.296794433189405,-15.169753534786423 -56.297094769999944,-15.169319089999874 -56.29904549999994,-15.166451789999874 -56.300996229999946,-15.163584489999874 -56.30294695999994,-15.160717189999874 -56.30489769000002,-15.157849890000023 -56.307029831000015,-15.161217672000022 -56.30916197247694,-15.164585454802761 -56.31021222889086,-15.166244366981573</coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+        </Folder>
+    </Document>
+</kml>
