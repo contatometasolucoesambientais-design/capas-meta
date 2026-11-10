@@ -1,0 +1,12 @@
+{
+ "arquivo": "fazenda-do-kito.kml",
+ "poligonos": 1,
+ "capa": {
+  "tiles": 32,
+  "falhas": 0
+ },
+ "escopo": {
+  "tiles": 28,
+  "falhas": 0
+ }
+}
