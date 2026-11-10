@@ -1,0 +1,12 @@
+{
+ "arquivo": "estancia-nossa-senhora-de-fatima.kml",
+ "poligonos": 1,
+ "capa": {
+  "tiles": 35,
+  "falhas": 0
+ },
+ "escopo": {
+  "tiles": 40,
+  "falhas": 0
+ }
+}
