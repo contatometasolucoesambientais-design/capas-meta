@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:ns2="http://www.google.com/kml/ext/2.2" xmlns:ns3="http://www.w3.org/2005/Atom" xmlns:ns4="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0">
+    <Document>
+        <Schema name="MVW_REQUERIMENTO_ATP_1" id="MVW_REQUERIMENTO_ATP_1">
+            <SimpleField type="string" name="OBJECTID"/>
+            <SimpleField type="string" name="NOMESPROPRIETARIOS"/>
+            <SimpleField type="string" name="NUMEROESTADUAL"/>
+            <SimpleField type="string" name="CODIGO_CAR_FEDERAL"/>
+            <SimpleField type="string" name="PROTOCOLO"/>
+            <SimpleField type="string" name="NOMEPROPRIEDADE"/>
+            <SimpleField type="string" name="ATIVIDADE"/>
+            <SimpleField type="string" name="SITUACAO"/>
+            <SimpleField type="string" name="APF_NUMERO"/>
+            <SimpleField type="string" name="NUMERO_ART"/>
+            <SimpleField type="string" name="MIGRACAO_ID"/>
+            <SimpleField type="string" name="CODIGO"/>
+            <SimpleField type="string" name="REQUERIMENTO_ID"/>
+            <SimpleField type="string" name="MUNICIPIO_CODIGO"/>
+            <SimpleField type="string" name="MODULOS_FISCAIS"/>
+            <SimpleField type="string" name="PERCENTUAL_SIGEF"/>
+            <SimpleField type="string" name="AREA_HA"/>
+            <SimpleField type="string" name="SUSPENSOS"/>
+        </Schema>
+        <Folder>
+            <name>MVW_REQUERIMENTO_ATP</name>
+            <Placemark id="MVW_REQUERIMENTO_ATP.19720">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#MVW_REQUERIMENTO_ATP_1">
+                        <SimpleData name="OBJECTID">19720</SimpleData>
+                        <SimpleData name="NOMESPROPRIETARIOS">XXX459XXX44 - Ilson José Seibt</SimpleData>
+                        <SimpleData name="NUMEROESTADUAL">MT23447/2019</SimpleData>
+                        <SimpleData name="CODIGO_CAR_FEDERAL">MT-5100201-599FEBF7485F499497F5B7B60C38F45E</SimpleData>
+                        <SimpleData name="PROTOCOLO">MT-5100201-0D1F.894D.8936.3036.E476.A8F0.C880.76A0</SimpleData>
+                        <SimpleData name="NOMEPROPRIEDADE">FAZENDA DO KITO</SimpleData>
+                        <SimpleData name="ATIVIDADE">[CAR]</SimpleData>
+                        <SimpleData name="SITUACAO">[AGUARDANDO_ANALISE]</SimpleData>
+                        <SimpleData name="MIGRACAO_ID">77488</SimpleData>
+                        <SimpleData name="CODIGO">379117</SimpleData>
+                        <SimpleData name="REQUERIMENTO_ID">126993</SimpleData>
+                        <SimpleData name="MUNICIPIO_CODIGO">5100201</SimpleData>
+                        <SimpleData name="MODULOS_FISCAIS">2.34</SimpleData>
+                        <SimpleData name="PERCENTUAL_SIGEF">100</SimpleData>
+                        <SimpleData name="AREA_HA">186.8528</SimpleData>
+                        <SimpleData name="SUSPENSOS">0</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Polygon>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <tessellate>1</tessellate>
+                            <coordinates>-52.15967221111935,-14.154101258226012 -52.16108157311935,-14.152160384226011 -52.16249093527309,-14.150219509665675 -52.16448165127309,-14.152324870665675 -52.166472367101626,-14.154430232348766 -52.16394476606867,-14.157804487635454 -52.161624827068664,-14.160889151635454 -52.159304888145236,-14.163973814745786 -52.15787010729496,-14.165892865260316 -52.1563005386752,-14.167992153596916 -52.15404913611059,-14.170978854630095 -52.151070301110586,-14.169355165630096 -52.148091466110586,-14.167731476630095 -52.14511263175006,-14.166107787885393 -52.14675323292776,-14.162847009354387 -52.14738251555976,-14.16253091857843 -52.14961262509571,-14.16141122150741 -52.153363405046555,-14.159542304458062 -52.15522975969589,-14.158868788640325 -52.15621295166583,-14.158400832146857 -52.15721220770773,-14.157940840264951 -52.15773409470918,-14.157608833883545 -52.159766867704874,-14.157212776705146 -52.16055628954695,-14.15706222923462 -52.160799137914445,-14.1570681425419 -52.15967221111935,-14.154101258226012</coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+        </Folder>
+    </Document>
+</kml>
