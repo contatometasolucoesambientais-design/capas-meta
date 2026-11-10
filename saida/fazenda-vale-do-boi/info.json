@@ -1,0 +1,12 @@
+{
+ "arquivo": "fazenda-vale-do-boi.zip",
+ "poligonos": 1,
+ "capa": {
+  "tiles": 18,
+  "falhas": 0
+ },
+ "escopo": {
+  "tiles": 18,
+  "falhas": 0
+ }
+}
