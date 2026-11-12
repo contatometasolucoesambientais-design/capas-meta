@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:ns2="http://www.google.com/kml/ext/2.2" xmlns:ns3="http://www.w3.org/2005/Atom" xmlns:ns4="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0">
+    <Document>
+        <Schema name="CAR_ATP_1" id="CAR_ATP_1">
+            <SimpleField type="string" name="NOMESPROPRIETARIOS"/>
+            <SimpleField type="string" name="NUMEROESTADUAL"/>
+            <SimpleField type="string" name="CAR_FEDERAL"/>
+            <SimpleField type="string" name="PROTOCOLO"/>
+            <SimpleField type="string" name="NOMEPROPRIEDADE"/>
+            <SimpleField type="string" name="ATIVIDADE"/>
+            <SimpleField type="string" name="SITUACAO_CAR"/>
+            <SimpleField type="string" name="APF_NUMERO"/>
+            <SimpleField type="string" name="NUMERO_ART"/>
+            <SimpleField type="string" name="MIGRACAO_ID"/>
+            <SimpleField type="string" name="CODIGO"/>
+            <SimpleField type="string" name="REQUERIMENTO_ID"/>
+            <SimpleField type="string" name="MUNICIPIO_CODIGO"/>
+            <SimpleField type="string" name="MODULOS_FISCAIS"/>
+            <SimpleField type="string" name="PERCENTUAL_SIGEF"/>
+            <SimpleField type="string" name="AREA_HA"/>
+        </Schema>
+        <Folder>
+            <name>CAR_ATP</name>
+            <Placemark id="CAR_ATP.1662072">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#CAR_ATP_1">
+                        <SimpleData name="NOMESPROPRIETARIOS">XXX384438XX - Espólio Roberto Zampieri; XXX979561XX - José Sebastião De Campos Sobrinho</SimpleData>
+                        <SimpleData name="NUMEROESTADUAL">MT170379/2019</SimpleData>
+                        <SimpleData name="CAR_FEDERAL">MT-5107701-30D3134FCAF84A2FB79CFA13C67C48A0</SimpleData>
+                        <SimpleData name="PROTOCOLO">MT-5107701-F3A1.8DF8.C25F.0654.18A3.F086.85E4.7357</SimpleData>
+                        <SimpleData name="NOMEPROPRIEDADE">FAZENDA SÃO JOÃO DA SALOBA PARTE II</SimpleData>
+                        <SimpleData name="ATIVIDADE">[CAR]</SimpleData>
+                        <SimpleData name="SITUACAO_CAR">[AGUARDANDO_ENVIO_PRA]</SimpleData>
+                        <SimpleData name="NUMERO_ART">1220210115966</SimpleData>
+                        <SimpleData name="CODIGO">1469256</SimpleData>
+                        <SimpleData name="REQUERIMENTO_ID">1668439</SimpleData>
+                        <SimpleData name="MUNICIPIO_CODIGO">5107701</SimpleData>
+                        <SimpleData name="MODULOS_FISCAIS">9.87</SimpleData>
+                        <SimpleData name="PERCENTUAL_SIGEF">97.45</SimpleData>
+                        <SimpleData name="AREA_HA">789.7781</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Polygon>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <tessellate>1</tessellate>
+                            <coordinates>-56.680829236284474,-15.247758486296478 -56.68021892230982,-15.246983228417246 -56.67955139000001,-15.246135279998425 -56.68057860999999,-15.245100279998463 -56.68411638999999,-15.243505834998462 -56.68765417000001,-15.241911389998428 -56.691278800000006,-15.239685556998428 -56.69490343000001,-15.237459722998429 -56.698528059999994,-15.235233889998423 -56.69894944,-15.236061389998454 -56.69949750000001,-15.236781669998443 -56.700046390000004,-15.237569999998438 -56.70099667,-15.239119439998433 -56.702228610000006,-15.24094110999844 -56.70354806,-15.24257471999845 -56.70569166999999,-15.245092219998442 -56.707373059999995,-15.247042499998434 -56.70800528,-15.247735279998464 -56.70890667000002,-15.248781669998465 -56.71061888999999,-15.251300829998453 -56.71207693999999,-15.25357916999845 -56.71369193999999,-15.256074719998425 -56.71433500000001,-15.257035829998433 -56.71544306,-15.259110829998441 -56.71594667,-15.26002499999843 -56.71623836321764,-15.26055009215969 -56.712915711476064,-15.262315261459996 -56.712137829177536,-15.262768118253616 -56.710885620310655,-15.263703779003242 -56.7091583006947,-15.265139864167486 -56.7066024086947,-15.266995194167485 -56.704046516122034,-15.26885052499548 -56.701944008122034,-15.27037794699548 -56.699841499397024,-15.271905369506149 -56.69712546139702,-15.268455814506149 -56.69440942439702,-15.26500626050615 -56.69169338639703,-15.261556705506148 -56.68897734939702,-15.258107150506149 -56.686261311397026,-15.25465759550615 -56.68354527339702,-15.25120804150615 -56.680829236284474,-15.247758486296478</coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+        </Folder>
+    </Document>
+</kml>
