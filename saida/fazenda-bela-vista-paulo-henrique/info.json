@@ -1,0 +1,12 @@
+{
+ "arquivo": "fazenda-bela-vista-paulo-henrique.kml",
+ "poligonos": 4,
+ "capa": {
+  "tiles": 20,
+  "falhas": 0
+ },
+ "escopo": {
+  "tiles": 24,
+  "falhas": 0
+ }
+}
