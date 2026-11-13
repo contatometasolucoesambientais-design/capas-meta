@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:ns2="http://www.google.com/kml/ext/2.2" xmlns:ns3="http://www.w3.org/2005/Atom" xmlns:ns4="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0">
+    <Document>
+        <Schema name="MVW_REQUERIMENTO_ATP_1" id="MVW_REQUERIMENTO_ATP_1">
+            <SimpleField type="string" name="OBJECTID"/>
+            <SimpleField type="string" name="NOMESPROPRIETARIOS"/>
+            <SimpleField type="string" name="NUMEROESTADUAL"/>
+            <SimpleField type="string" name="CODIGO_CAR_FEDERAL"/>
+            <SimpleField type="string" name="PROTOCOLO"/>
+            <SimpleField type="string" name="NOMEPROPRIEDADE"/>
+            <SimpleField type="string" name="ATIVIDADE"/>
+            <SimpleField type="string" name="SITUACAO"/>
+            <SimpleField type="string" name="APF_NUMERO"/>
+            <SimpleField type="string" name="NUMERO_ART"/>
+            <SimpleField type="string" name="MIGRACAO_ID"/>
+            <SimpleField type="string" name="CODIGO"/>
+            <SimpleField type="string" name="REQUERIMENTO_ID"/>
+            <SimpleField type="string" name="MUNICIPIO_CODIGO"/>
+            <SimpleField type="string" name="MODULOS_FISCAIS"/>
+            <SimpleField type="string" name="PERCENTUAL_SIGEF"/>
+            <SimpleField type="string" name="AREA_HA"/>
+            <SimpleField type="string" name="SUSPENSOS"/>
+        </Schema>
+        <Folder>
+            <name>MVW_REQUERIMENTO_ATP</name>
+            <Placemark id="MVW_REQUERIMENTO_ATP.181204">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#MVW_REQUERIMENTO_ATP_1">
+                        <SimpleData name="OBJECTID">181204</SimpleData>
+                        <SimpleData name="NOMESPROPRIETARIOS">XXX963XXX49 - Delcides Silveira Guimarães</SimpleData>
+                        <SimpleData name="NUMEROESTADUAL">MT28775/2019</SimpleData>
+                        <SimpleData name="CODIGO_CAR_FEDERAL">MT-5107800-AD75A35AD6B24141992DAAAAFA9B4161</SimpleData>
+                        <SimpleData name="NOMEPROPRIEDADE">SITIO SERRA AZUL</SimpleData>
+                        <SimpleData name="ATIVIDADE">[CAR]</SimpleData>
+                        <SimpleData name="SITUACAO">[INDEFERIDO]</SimpleData>
+                        <SimpleData name="MIGRACAO_ID">86801</SimpleData>
+                        <SimpleData name="CODIGO">371536</SimpleData>
+                        <SimpleData name="REQUERIMENTO_ID">121962</SimpleData>
+                        <SimpleData name="MUNICIPIO_CODIGO">5107800</SimpleData>
+                        <SimpleData name="MODULOS_FISCAIS">1.79</SimpleData>
+                        <SimpleData name="PERCENTUAL_SIGEF">0.29</SimpleData>
+                        <SimpleData name="AREA_HA">125.0209</SimpleData>
+                        <SimpleData name="SUSPENSOS">0</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Polygon>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <tessellate>1</tessellate>
+                            <coordinates>-55.642933,-15.768094 -55.643913,-15.770153 -55.643529,-15.770359 -55.643289,-15.770486 -55.643087,-15.770561 -55.642556,-15.770844 -55.642259,-15.77095 -55.641977,-15.771026 -55.641547,-15.771013 -55.641351,-15.771032 -55.641155,-15.771155 -55.641006,-15.771306 -55.640854,-15.771507 -55.640762,-15.771819 -55.640707,-15.772117 -55.640637,-15.772245 -55.640504,-15.772311 -55.640398,-15.772289 -55.640335,-15.772232 -55.640333,-15.772122 -55.640582,-15.771705 -55.640621,-15.771526 -55.640617,-15.771361 -55.640554,-15.771263 -55.640453,-15.771211 -55.640289,-15.77121 -55.640019,-15.771162 -55.639739,-15.771298 -55.639574,-15.771359 -55.639409,-15.771419 -55.639058,-15.771504 -55.638777,-15.771513 -55.638544,-15.771491 -55.638277,-15.77156 -55.638097,-15.771688 -55.638022,-15.771827 -55.637989,-15.771996 -55.637999,-15.772305 -55.638055,-15.772453 -55.638091,-15.772546 -55.63807,-15.772607 -55.637938,-15.772657 -55.637774,-15.77267 -55.637608,-15.772605 -55.637433,-15.772588 -55.637141,-15.772648 -55.637024,-15.772691 -55.63679,-15.772858 -55.636572,-15.772949 -55.636463,-15.772957 -55.636319,-15.772926 -55.636095,-15.772844 -55.635963,-15.772819 -55.635817,-15.772846 -55.635674,-15.772902 -55.635522,-15.773054 -55.635471,-15.773091 -55.635362,-15.773121 -55.635089,-15.773284 -55.635167,-15.77014 -55.633832,-15.766843 -55.632497,-15.763546 -55.631264,-15.760423 -55.630031,-15.7573 -55.6301,-15.75381 -55.630399,-15.753791 -55.631696,-15.754769 -55.632522,-15.755037 -55.633102,-15.755814 -55.634463,-15.757196 -55.633602,-15.757341 -55.634243,-15.759511 -55.636248,-15.7614 -55.636545,-15.762206 -55.637454,-15.762736 -55.6395465,-15.7639955 -55.641639,-15.765255 -55.642101,-15.76529 -55.643377,-15.766414 -55.642933,-15.768094</coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+        </Folder>
+    </Document>
+</kml>
