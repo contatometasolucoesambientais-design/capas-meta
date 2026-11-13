@@ -1,0 +1,12 @@
+{
+ "arquivo": "fazenda-estrela-do-norte.kmz",
+ "poligonos": 2,
+ "capa": {
+  "tiles": 15,
+  "falhas": 0
+ },
+ "escopo": {
+  "tiles": 15,
+  "falhas": 0
+ }
+}
