@@ -1,0 +1,12 @@
+{
+ "arquivo": "fazenda-porta-do-ceu-calgaro.kml",
+ "poligonos": 1,
+ "capa": {
+  "tiles": 35,
+  "falhas": 0
+ },
+ "escopo": {
+  "tiles": 28,
+  "falhas": 0
+ }
+}
