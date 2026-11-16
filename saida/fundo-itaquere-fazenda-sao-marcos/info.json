@@ -1,0 +1,12 @@
+{
+ "arquivo": "fundo-itaquere-fazenda-sao-marcos.geojson",
+ "poligonos": 1,
+ "capa": {
+  "tiles": 40,
+  "falhas": 0
+ },
+ "escopo": {
+  "tiles": 24,
+  "falhas": 0
+ }
+}
