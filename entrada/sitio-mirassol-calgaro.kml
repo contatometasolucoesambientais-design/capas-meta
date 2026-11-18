@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:ns2="http://www.google.com/kml/ext/2.2" xmlns:ns3="http://www.w3.org/2005/Atom" xmlns:ns4="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0">
+    <Document>
+        <Schema name="CAR_ATP_1" id="CAR_ATP_1">
+            <SimpleField type="string" name="NOMESPROPRIETARIOS"/>
+            <SimpleField type="string" name="NUMEROESTADUAL"/>
+            <SimpleField type="string" name="CAR_FEDERAL"/>
+            <SimpleField type="string" name="PROTOCOLO"/>
+            <SimpleField type="string" name="NOMEPROPRIEDADE"/>
+            <SimpleField type="string" name="ATIVIDADE"/>
+            <SimpleField type="string" name="SITUACAO_CAR"/>
+            <SimpleField type="string" name="APF_NUMERO"/>
+            <SimpleField type="string" name="NUMERO_ART"/>
+            <SimpleField type="string" name="MIGRACAO_ID"/>
+            <SimpleField type="string" name="CODIGO"/>
+            <SimpleField type="string" name="REQUERIMENTO_ID"/>
+            <SimpleField type="string" name="MUNICIPIO_CODIGO"/>
+            <SimpleField type="string" name="MODULOS_FISCAIS"/>
+            <SimpleField type="string" name="PERCENTUAL_SIGEF"/>
+            <SimpleField type="string" name="AREA_HA"/>
+        </Schema>
+        <Folder>
+            <name>CAR_ATP</name>
+            <Placemark id="CAR_ATP.442019">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#CAR_ATP_1">
+                        <SimpleData name="NOMESPROPRIETARIOS">XXX316951XX - João Paulo Calgaro</SimpleData>
+                        <SimpleData name="NUMEROESTADUAL">MT216961/2022</SimpleData>
+                        <SimpleData name="CAR_FEDERAL">MT-5103858-FE1E75BA61B347D39EE4BE66A91B8DB0</SimpleData>
+                        <SimpleData name="PROTOCOLO">MT-5103858-3EA5.3D11.ACFA.82D7.0A2B.81A8.4E1C.6678</SimpleData>
+                        <SimpleData name="NOMEPROPRIEDADE">Sítio Mirassol - Parcela 03</SimpleData>
+                        <SimpleData name="ATIVIDADE">[CAR]</SimpleData>
+                        <SimpleData name="SITUACAO_CAR">[AGUARDANDO_ENVIO_PRA]</SimpleData>
+                        <SimpleData name="CODIGO">1134521</SimpleData>
+                        <SimpleData name="REQUERIMENTO_ID">447384</SimpleData>
+                        <SimpleData name="MUNICIPIO_CODIGO">5103858</SimpleData>
+                        <SimpleData name="MODULOS_FISCAIS">0.94</SimpleData>
+                        <SimpleData name="PERCENTUAL_SIGEF">100</SimpleData>
+                        <SimpleData name="AREA_HA">84.6711</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Polygon>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <tessellate>1</tessellate>
+                            <coordinates>-53.22996333,-13.28725139 -53.23202097,-13.28819986 -53.23407861,-13.28914833 -53.232134666,-13.292313998 -53.230190722,-13.295479666 -53.228246778,-13.298645334 -53.226302834,-13.301811002 -53.22435889,-13.30497667 -53.221283283624004,-13.3044267735832 -53.223019292624,-13.3009916965832 -53.224755302624004,-13.2975566205832 -53.226491311624,-13.2941215435832 -53.228227320624,-13.2906864665832 -53.22996333,-13.28725139</coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+        </Folder>
+    </Document>
+</kml>
