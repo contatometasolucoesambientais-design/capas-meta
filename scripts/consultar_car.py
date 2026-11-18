@@ -11,8 +11,13 @@ from pathlib import Path
 
 import requests
 
+SEMA = "https://geo.sema.mt.gov.br/geoserver"
 SERVIDORES = {
-    "SEMA-MT": "https://geo.sema.mt.gov.br/geoserver/ows",
+    "SEMA-MT": f"{SEMA}/ows",
+    "SEMA-MT simcar_prod": f"{SEMA}/simcar_prod/ows",
+    "SEMA-MT SIMCAR_em_analise": f"{SEMA}/SIMCAR_em_analise/ows",
+    "SEMA-MT semamt": f"{SEMA}/semamt/ows",
+    "SEMA-MT Geoportal": f"{SEMA}/Geoportal/ows",
     "SICAR": "https://geoserver.car.gov.br/geoserver/sicar/wfs",
 }
 PALAVRAS = ("car", "simcar", "imove", "imovei", "atp", "perimetro")
@@ -32,13 +37,19 @@ def get(url, params):
         r = requests.get(url, params=params, headers=HEAD, timeout=TIMEOUT)
         return r.status_code, r.text
     except Exception as e:  # noqa: BLE001
-        return None, f"ERRO: {e}"
+        return None, f"ERRO: {e}"[:300]
 
 
 def listar_camadas(url):
     st, txt = get(url, {"service": "WFS", "version": "1.1.0", "request": "GetCapabilities"})
-    log(f"  GetCapabilities -> HTTP {st}, {len(txt)} bytes")
-    nomes = re.findall(r"<(?:wfs:)?Name>([^<]+)</(?:wfs:)?Name>", txt)
+    log(f"  WFS GetCapabilities -> HTTP {st}, {len(txt)} bytes")
+    Path("saida/car/_bruto").mkdir(parents=True, exist_ok=True)
+    tag = re.sub(r"[^a-z0-9]+", "_", url.lower())[-40:]
+    Path(f"saida/car/_bruto/wfs_{tag}.xml").write_text(txt[:200000], encoding="utf-8")
+    st2, wms = get(url, {"service": "WMS", "version": "1.3.0", "request": "GetCapabilities"})
+    Path(f"saida/car/_bruto/wms_{tag}.xml").write_text(wms[:400000], encoding="utf-8")
+    log(f"  WMS GetCapabilities -> HTTP {st2}, {len(wms)} bytes")
+    nomes = re.findall(r"<(?:\w+:)?Name>([^<]+)</(?:\w+:)?Name>", txt)
     log(f"  {len(nomes)} camadas no total")
     alvo = [n for n in nomes if any(p in n.lower() for p in PALAVRAS)]
     log(f"  camadas candidatas ({len(alvo)}): {alvo[:60]}")
@@ -99,6 +110,10 @@ def consultar(numero):
         except Exception as e:  # noqa: BLE001
             log(f"  falhou: {e}")
             continue
+        if not camadas:
+            st, txt = get(url, {"service": "WFS", "version": "1.1.0", "request": "GetCapabilities"})
+            if st is None:
+                log(f"  {txt}")
         for camada in camadas[:25]:
             for campo in campos(url, camada)[:8]:
                 for termo in termos:
