@@ -1,0 +1,1 @@
+ERRO: HTTPSConnectionPool(host='geo.sema.mt.gov.br', port=443): Max retries exceeded with url: /geoserver/Geoportal/ows?service=WMS&version=1.3.0&request=GetCapabilities (Caused by ConnectTimeoutError(<HTTPSConnection(host='geo.sema.mt.gov.br', port=443) at 0x7d8f2bfb7350>, 'Connection to geo.sema.m

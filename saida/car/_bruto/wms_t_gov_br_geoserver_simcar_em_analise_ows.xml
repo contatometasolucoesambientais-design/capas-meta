@@ -1,0 +1,1 @@
+ERRO: HTTPSConnectionPool(host='geo.sema.mt.gov.br', port=443): Read timed out. (read timeout=60)

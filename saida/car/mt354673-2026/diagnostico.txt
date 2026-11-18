@@ -1,13 +1,43 @@
 CAR: MT354673/2026
 
 == SEMA-MT (https://geo.sema.mt.gov.br/geoserver/ows)
-  GetCapabilities -> HTTP 200, 23484 bytes
+  WFS GetCapabilities -> HTTP 200, 23484 bytes
+  WMS GetCapabilities -> HTTP None, 97 bytes
   0 camadas no total
   camadas candidatas (0): []
 
-== SICAR (https://geoserver.car.gov.br/geoserver/sicar/wfs)
-  GetCapabilities -> HTTP None, 287 bytes
+== SEMA-MT simcar_prod (https://geo.sema.mt.gov.br/geoserver/simcar_prod/ows)
+  WFS GetCapabilities -> HTTP 200, 23331 bytes
+  WMS GetCapabilities -> HTTP None, 97 bytes
   0 camadas no total
   camadas candidatas (0): []
+
+== SEMA-MT SIMCAR_em_analise (https://geo.sema.mt.gov.br/geoserver/SIMCAR_em_analise/ows)
+  WFS GetCapabilities -> HTTP 200, 23389 bytes
+  WMS GetCapabilities -> HTTP None, 97 bytes
+  0 camadas no total
+  camadas candidatas (0): []
+  ERRO: HTTPSConnectionPool(host='geo.sema.mt.gov.br', port=443): Max retries exceeded with url: /geoserver/SIMCAR_em_analise/ows?service=WFS&version=1.1.0&request=GetCapabilities (Caused by ConnectTimeoutError(<HTTPSConnection(host='geo.sema.mt.gov.br', port=443) at 0x7d8f2bfb7cb0>, 'Connection to ge
+
+== SEMA-MT semamt (https://geo.sema.mt.gov.br/geoserver/semamt/ows)
+  WFS GetCapabilities -> HTTP None, 300 bytes
+  WMS GetCapabilities -> HTTP None, 300 bytes
+  0 camadas no total
+  camadas candidatas (0): []
+  ERRO: HTTPSConnectionPool(host='geo.sema.mt.gov.br', port=443): Max retries exceeded with url: /geoserver/semamt/ows?service=WFS&version=1.1.0&request=GetCapabilities (Caused by ConnectTimeoutError(<HTTPSConnection(host='geo.sema.mt.gov.br', port=443) at 0x7d8f2d5f7aa0>, 'Connection to geo.sema.mt.g
+
+== SEMA-MT Geoportal (https://geo.sema.mt.gov.br/geoserver/Geoportal/ows)
+  WFS GetCapabilities -> HTTP None, 300 bytes
+  WMS GetCapabilities -> HTTP None, 300 bytes
+  0 camadas no total
+  camadas candidatas (0): []
+  ERRO: HTTPSConnectionPool(host='geo.sema.mt.gov.br', port=443): Max retries exceeded with url: /geoserver/Geoportal/ows?service=WFS&version=1.1.0&request=GetCapabilities (Caused by ConnectTimeoutError(<HTTPSConnection(host='geo.sema.mt.gov.br', port=443) at 0x7d8f2c009280>, 'Connection to geo.sema.m
+
+== SICAR (https://geoserver.car.gov.br/geoserver/sicar/wfs)
+  WFS GetCapabilities -> HTTP None, 287 bytes
+  WMS GetCapabilities -> HTTP None, 287 bytes
+  0 camadas no total
+  camadas candidatas (0): []
+  ERRO: HTTPSConnectionPool(host='geoserver.car.gov.br', port=443): Max retries exceeded with url: /geoserver/sicar/wfs?service=WFS&version=1.1.0&request=GetCapabilities (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)')))
 
 RESULTADO: perímetro não encontrado.

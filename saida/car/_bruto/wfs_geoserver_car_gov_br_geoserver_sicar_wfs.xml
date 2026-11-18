@@ -1,0 +1,1 @@
+ERRO: HTTPSConnectionPool(host='geoserver.car.gov.br', port=443): Max retries exceeded with url: /geoserver/sicar/wfs?service=WFS&version=1.1.0&request=GetCapabilities (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)')))
