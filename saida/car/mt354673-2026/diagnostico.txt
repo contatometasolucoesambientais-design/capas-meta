@@ -1,0 +1,13 @@
+CAR: MT354673/2026
+
+== SEMA-MT (https://geo.sema.mt.gov.br/geoserver/ows)
+  GetCapabilities -> HTTP 200, 23484 bytes
+  0 camadas no total
+  camadas candidatas (0): []
+
+== SICAR (https://geoserver.car.gov.br/geoserver/sicar/wfs)
+  GetCapabilities -> HTTP None, 287 bytes
+  0 camadas no total
+  camadas candidatas (0): []
+
+RESULTADO: perímetro não encontrado.
