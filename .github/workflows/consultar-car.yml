@@ -1,0 +1,35 @@
+name: Consultar CAR
+
+on:
+  push:
+    paths:
+      - "car/**"
+      - "scripts/consultar_car.py"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: gerar-capa
+  cancel-in-progress: false
+
+jobs:
+  car:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests
+      - name: Consultar perímetro
+        run: python scripts/consultar_car.py
+      - name: Salvar resultado
+        run: |
+          git config user.name "consulta-car"
+          git config user.email "actions@users.noreply.github.com"
+          git add saida/car
+          if git diff --cached --quiet; then echo "Nada novo"; exit 0; fi
+          git commit -m "Consulta CAR"
+          for i in 1 2 3; do git pull --rebase && git push && break; sleep 3; done
