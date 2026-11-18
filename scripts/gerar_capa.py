@@ -41,13 +41,32 @@ def parse_kml(texto):
     return rings
 
 
+def cor_rgb(v):
+    """Cor da feicao (propriedade "stroke"/"cor" no GeoJSON): hex ou nome."""
+    if not v:
+        return COR
+    nomes = {"vermelho": (255, 0, 0), "red": (255, 0, 0), "amarelo": COR, "yellow": COR,
+             "branco": (255, 255, 255), "white": (255, 255, 255), "azul": (0, 170, 255)}
+    v = str(v).strip().lower()
+    if v in nomes:
+        return nomes[v]
+    v = v.lstrip("#")
+    if len(v) == 3:
+        v = "".join(c * 2 for c in v)
+    try:
+        return tuple(int(v[i:i + 2], 16) for i in (0, 2, 4))
+    except ValueError:
+        return COR
+
+
 def parse_geojson(gj):
     rings = []
+    cor = [COR]
 
     def push(cs):
         pts = [(c[0], c[1]) for c in cs if len(c) >= 2]
         if len(pts) >= 3:
-            rings.append(pts)
+            rings.append((pts, cor[0]))
 
     def geom(g):
         if not g:
@@ -72,7 +91,11 @@ def parse_geojson(gj):
         if o.get("type") == "FeatureCollection":
             return [walk(f) for f in o["features"]]
         if o.get("type") == "Feature":
-            return geom(o.get("geometry"))
+            pr = o.get("properties") or {}
+            cor[0] = cor_rgb(pr.get("stroke") or pr.get("cor"))
+            geom(o.get("geometry"))
+            cor[0] = COR
+            return
         geom(o)
 
     walk(gj)
@@ -99,6 +122,12 @@ def parse_shp_zip(dados):
 
 
 def ler(caminho):
+    """Lista de (pontos, cor). So o GeoJSON aceita cor por feicao; o resto sai amarelo."""
+    rings = _ler(caminho)
+    return [r if isinstance(r, tuple) else (r, COR) for r in rings]
+
+
+def _ler(caminho):
     n = caminho.lower()
     dados = open(caminho, "rb").read()
     if n.endswith(".kmz"):
@@ -115,8 +144,8 @@ def ler(caminho):
 def enquadrar(modo, rings):
     p = MARGEM[modo]
     px, py = p if isinstance(p, tuple) else (p, p)
-    xs = [lx(a) for r in rings for a, _ in r]
-    ys = [ly(b) for r in rings for _, b in r]
+    xs = [lx(a) for r, _c in rings for a, _ in r]
+    ys = [ly(b) for r, _c in rings for _, b in r]
     minx, maxx, miny, maxy = min(xs), max(xs), min(ys), max(ys)
     esq = (round(W * RESERVA) if modo == "capa" else 0) + px
     dir_, top, base = W - px, py, H - py
@@ -167,9 +196,10 @@ def renderizar(rings, vista):
     dr = ImageDraw.Draw(img)
     esc = 2 ** z
     lw = max(1, round(ESPESSURA * s))
-    for r in rings:
+    # amarelo primeiro; cores de destaque (ex.: PRODES em vermelho) por cima
+    for r, cor in sorted(rings, key=lambda rc: rc[1] != COR):
         pts = [((lx(a) * esc - x0) * k, (ly(b) * esc - y0) * k) for a, b in r]
-        dr.line(pts + [pts[0]], fill=COR, width=lw, joint="curve")
+        dr.line(pts + [pts[0]], fill=cor, width=lw, joint="curve")
     return img, falhas, len(tiles)
 
 
