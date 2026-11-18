@@ -1,0 +1,12 @@
+{
+ "arquivo": "fazenda-sao-bento-luiz-cesar-prodes.geojson",
+ "poligonos": 2,
+ "capa": {
+  "tiles": 20,
+  "falhas": 0
+ },
+ "escopo": {
+  "tiles": 24,
+  "falhas": 0
+ }
+}
