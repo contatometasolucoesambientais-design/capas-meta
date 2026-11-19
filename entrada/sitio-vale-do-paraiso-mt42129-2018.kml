@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:ns2="http://www.google.com/kml/ext/2.2" xmlns:ns3="http://www.w3.org/2005/Atom" xmlns:ns4="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0">
+    <Document>
+        <Schema name="CAR_ATP_1" id="CAR_ATP_1">
+            <SimpleField type="string" name="NOMESPROPRIETARIOS"/>
+            <SimpleField type="string" name="NUMEROESTADUAL"/>
+            <SimpleField type="string" name="CAR_FEDERAL"/>
+            <SimpleField type="string" name="PROTOCOLO"/>
+            <SimpleField type="string" name="NOMEPROPRIEDADE"/>
+            <SimpleField type="string" name="ATIVIDADE"/>
+            <SimpleField type="string" name="SITUACAO_CAR"/>
+            <SimpleField type="string" name="APF_NUMERO"/>
+            <SimpleField type="string" name="NUMERO_ART"/>
+            <SimpleField type="string" name="MIGRACAO_ID"/>
+            <SimpleField type="string" name="CODIGO"/>
+            <SimpleField type="string" name="REQUERIMENTO_ID"/>
+            <SimpleField type="string" name="MUNICIPIO_CODIGO"/>
+            <SimpleField type="string" name="MODULOS_FISCAIS"/>
+            <SimpleField type="string" name="PERCENTUAL_SIGEF"/>
+            <SimpleField type="string" name="AREA_HA"/>
+        </Schema>
+        <Folder>
+            <name>CAR_ATP</name>
+            <Placemark id="CAR_ATP.1073882">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#CAR_ATP_1">
+                        <SimpleData name="NOMESPROPRIETARIOS">XXX166081XX - Mauro Quintão Da Silva</SimpleData>
+                        <SimpleData name="NUMEROESTADUAL">MT42129/2018</SimpleData>
+                        <SimpleData name="CAR_FEDERAL">MT-5103809-CC91BC1BB0274164A2C8AC19045E3EDF</SimpleData>
+                        <SimpleData name="NOMEPROPRIEDADE">Sítio Vale do Paraíso / Sítio Vale do Paraíso II / Sítio Bacuri / Sítio Quintão II</SimpleData>
+                        <SimpleData name="ATIVIDADE">[CAR]</SimpleData>
+                        <SimpleData name="SITUACAO_CAR">[AGUARDANDO_ENVIO_PRA]</SimpleData>
+                        <SimpleData name="APF_NUMERO">32737/2020</SimpleData>
+                        <SimpleData name="MIGRACAO_ID">104833</SimpleData>
+                        <SimpleData name="CODIGO">1284464</SimpleData>
+                        <SimpleData name="REQUERIMENTO_ID">1079924</SimpleData>
+                        <SimpleData name="MUNICIPIO_CODIGO">5103809</SimpleData>
+                        <SimpleData name="MODULOS_FISCAIS">1.61</SimpleData>
+                        <SimpleData name="PERCENTUAL_SIGEF">0</SimpleData>
+                        <SimpleData name="AREA_HA">128.9695</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Polygon>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <tessellate>1</tessellate>
+                            <coordinates>-58.829037029999995,-15.556018510000014 -58.825962969999956,-15.554898149999971 -58.82288890999999,-15.55377778000001 -58.823486130000006,-15.551569439999996 -58.82408334999998,-15.549361099999995 -58.82811112498299,-15.550833321423639 -58.83211111,-15.55222221999992 -58.83211109000013,-15.55463891000008 -58.83175679999999,-15.555924049999984 -58.831802173463764,-15.55607278092688 -58.83557407,-15.557425919999991 -58.83970369999999,-15.558907409999994 -58.84383332999998,-15.56038888999999 -58.8445,-15.55891667 -58.847347219999996,-15.559888890000003 -58.850194439999974,-15.560861110000012 -58.849499999999985,-15.562444439999979 -58.848138890000016,-15.565333329999998 -58.84398101,-15.563856990000014 -58.839823129999985,-15.56238065 -58.83566524000001,-15.560904310000002 -58.83150736000001,-15.559427970000005 -58.832365669999994,-15.55862179000001 -58.83249440999999,-15.557412510000004 -58.83201058052667,-15.556736022274496 -58.832111089999984,-15.557138880000004 -58.829037029999995,-15.556018510000014</coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+        </Folder>
+    </Document>
+</kml>
