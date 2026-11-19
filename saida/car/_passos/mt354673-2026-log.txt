@@ -1,0 +1,3 @@
+site nao abriu: Page.goto: net::ERR_CONNECTION_TIMED_OUT at https://geoportal.sema.mt.gov.br/
+Call log:
+  - navigating to "https://geoportal.sema.mt.gov.br/", waiting until "commit"
