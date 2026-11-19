@@ -38,8 +38,15 @@ def baixar(numero):
     with sync_playwright() as p:
         b = p.chromium.launch()
         page = b.new_page(viewport={"width": 1600, "height": 1000}, accept_downloads=True)
-        page.goto(URL, wait_until="networkidle", timeout=120000)
-        time.sleep(5)
+        try:
+            page.goto(URL, wait_until="commit", timeout=180000)
+            log.append("site respondeu")
+        except Exception as e:
+            log.append(f"site nao abriu: {str(e)[:200]}")
+            (PASSOS / f"{slug}-log.txt").write_text("\n".join(log), encoding="utf-8")
+            b.close()
+            return
+        time.sleep(25)
         foto(page, f"{slug}-1-inicio")
         log.append("CLICAVEIS INICIO:\n" + "\n".join(textos_clicaveis(page)[:120]))
         # abre a pesquisa (ícone de lupa)
