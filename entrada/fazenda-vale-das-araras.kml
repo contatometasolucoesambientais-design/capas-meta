@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:ns2="http://www.google.com/kml/ext/2.2" xmlns:ns3="http://www.w3.org/2005/Atom" xmlns:ns4="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0">
+    <Document>
+        <Schema name="CAR_ATP_1" id="CAR_ATP_1">
+            <SimpleField type="string" name="NOMESPROPRIETARIOS"/>
+            <SimpleField type="string" name="NUMEROESTADUAL"/>
+            <SimpleField type="string" name="CAR_FEDERAL"/>
+            <SimpleField type="string" name="PROTOCOLO"/>
+            <SimpleField type="string" name="NOMEPROPRIEDADE"/>
+            <SimpleField type="string" name="ATIVIDADE"/>
+            <SimpleField type="string" name="SITUACAO_CAR"/>
+            <SimpleField type="string" name="APF_NUMERO"/>
+            <SimpleField type="string" name="NUMERO_ART"/>
+            <SimpleField type="string" name="MIGRACAO_ID"/>
+            <SimpleField type="string" name="CODIGO"/>
+            <SimpleField type="string" name="REQUERIMENTO_ID"/>
+            <SimpleField type="string" name="MUNICIPIO_CODIGO"/>
+            <SimpleField type="string" name="MODULOS_FISCAIS"/>
+            <SimpleField type="string" name="PERCENTUAL_SIGEF"/>
+            <SimpleField type="string" name="AREA_HA"/>
+        </Schema>
+        <Folder>
+            <name>CAR_ATP</name>
+            <Placemark id="CAR_ATP.1001223">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#CAR_ATP_1">
+                        <SimpleData name="NOMESPROPRIETARIOS">XXX982251XX - Reinhardt Heydrich Jacintho Da Silva</SimpleData>
+                        <SimpleData name="NUMEROESTADUAL">MT232/2019</SimpleData>
+                        <SimpleData name="CAR_FEDERAL">MT-5107859-1FFCBC5624414626901F4054DC1C72B9</SimpleData>
+                        <SimpleData name="PROTOCOLO">MT-5107859-C485.1243.1F41.A909.52F5.E584.DB0E.7F5A</SimpleData>
+                        <SimpleData name="NOMEPROPRIEDADE">FAZENDA VALE DAS ARARAS</SimpleData>
+                        <SimpleData name="ATIVIDADE">[CAR]</SimpleData>
+                        <SimpleData name="SITUACAO_CAR">[AGUARDANDO_ENVIO_PRA]</SimpleData>
+                        <SimpleData name="MIGRACAO_ID">42440</SimpleData>
+                        <SimpleData name="CODIGO">1259337</SimpleData>
+                        <SimpleData name="REQUERIMENTO_ID">1007074</SimpleData>
+                        <SimpleData name="MUNICIPIO_CODIGO">5107859</SimpleData>
+                        <SimpleData name="MODULOS_FISCAIS">4.54</SimpleData>
+                        <SimpleData name="PERCENTUAL_SIGEF">0</SimpleData>
+                        <SimpleData name="AREA_HA">362.9578</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Polygon>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <tessellate>1</tessellate>
+                            <coordinates>-52.06005274087302,-11.566932204818823 -52.064399668873016,-11.567918685818823 -52.06874659687302,-11.568905166818823 -52.073093524873016,-11.569891647818823 -52.07744045187302,-11.570878127818823 -52.08178737987302,-11.571864608818823 -52.086134307985816,-11.57285109003528 -52.08367847298582,-11.576485184035281 -52.08122263798582,-11.580119279035282 -52.0787668034615,-11.58375337317739 -52.0744506774615,-11.582801947177389 -52.0701345504615,-11.581850522177389 -52.0658184244615,-11.580899096177388 -52.0615022984615,-11.57994767017739 -52.05718617187046,-11.578996244767705 -52.058141694870464,-11.574974897767705 -52.05909721787046,-11.570953551767705 -52.06005274087302,-11.566932204818823</coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+        </Folder>
+    </Document>
+</kml>
