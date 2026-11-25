@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:ns2="http://www.google.com/kml/ext/2.2" xmlns:ns3="http://www.w3.org/2005/Atom" xmlns:ns4="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0">
+    <Document>
+        <Schema name="CAR_ATP_1" id="CAR_ATP_1">
+            <SimpleField type="string" name="NOMESPROPRIETARIOS"/>
+            <SimpleField type="string" name="NUMEROESTADUAL"/>
+            <SimpleField type="string" name="CAR_FEDERAL"/>
+            <SimpleField type="string" name="PROTOCOLO"/>
+            <SimpleField type="string" name="NOMEPROPRIEDADE"/>
+            <SimpleField type="string" name="ATIVIDADE"/>
+            <SimpleField type="string" name="SITUACAO_CAR"/>
+            <SimpleField type="string" name="APF_NUMERO"/>
+            <SimpleField type="string" name="NUMERO_ART"/>
+            <SimpleField type="string" name="MIGRACAO_ID"/>
+            <SimpleField type="string" name="CODIGO"/>
+            <SimpleField type="string" name="REQUERIMENTO_ID"/>
+            <SimpleField type="string" name="MUNICIPIO_CODIGO"/>
+            <SimpleField type="string" name="MODULOS_FISCAIS"/>
+            <SimpleField type="string" name="PERCENTUAL_SIGEF"/>
+            <SimpleField type="string" name="AREA_HA"/>
+        </Schema>
+        <Folder>
+            <name>CAR_ATP</name>
+            <Placemark id="CAR_ATP.1012102">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#CAR_ATP_1">
+                        <SimpleData name="NOMESPROPRIETARIOS">21595750000123 - INSTITUTO MATOGROSSENSE DO AGRONEGOCIO  IAGRO</SimpleData>
+                        <SimpleData name="NUMEROESTADUAL">MT242886/2023</SimpleData>
+                        <SimpleData name="CAR_FEDERAL">MT-5106174-FA01365FF19F45778E7119D8A80B08E3</SimpleData>
+                        <SimpleData name="PROTOCOLO">MT-5106174-12AE.A4DE.E60A.EFDD.6FB6.B2DD.71C0.52E1</SimpleData>
+                        <SimpleData name="NOMEPROPRIEDADE">CENTRO TECNOLOGICO MENOR</SimpleData>
+                        <SimpleData name="ATIVIDADE">[CAR]</SimpleData>
+                        <SimpleData name="SITUACAO_CAR">[CAR_VALIDADO_EM_REGULARIZACAO]</SimpleData>
+                        <SimpleData name="CODIGO">1264045</SimpleData>
+                        <SimpleData name="REQUERIMENTO_ID">1018031</SimpleData>
+                        <SimpleData name="MUNICIPIO_CODIGO">5106174</SimpleData>
+                        <SimpleData name="MODULOS_FISCAIS">0.18</SimpleData>
+                        <SimpleData name="PERCENTUAL_SIGEF">100</SimpleData>
+                        <SimpleData name="AREA_HA">14.0292</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Polygon>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <tessellate>1</tessellate>
+                            <coordinates>-52.03181278,-13.77968083 -52.03186667,-13.78146667 -52.02834389,-13.78196181 -52.02482111,-13.78245694 -52.02483333,-13.78114306 -52.02638028,-13.78079611 -52.03011722,-13.77974972 -52.03181278,-13.77968083</coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+        </Folder>
+    </Document>
+</kml>
