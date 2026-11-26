@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:ns2="http://www.google.com/kml/ext/2.2" xmlns:ns3="http://www.w3.org/2005/Atom" xmlns:ns4="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0">
+    <Document>
+        <Schema name="MVW_REQUERIMENTO_ATP_1" id="MVW_REQUERIMENTO_ATP_1">
+            <SimpleField type="string" name="OBJECTID"/>
+            <SimpleField type="string" name="NOMESPROPRIETARIOS"/>
+            <SimpleField type="string" name="NUMEROESTADUAL"/>
+            <SimpleField type="string" name="CODIGO_CAR_FEDERAL"/>
+            <SimpleField type="string" name="PROTOCOLO"/>
+            <SimpleField type="string" name="NOMEPROPRIEDADE"/>
+            <SimpleField type="string" name="ATIVIDADE"/>
+            <SimpleField type="string" name="SITUACAO"/>
+            <SimpleField type="string" name="APF_NUMERO"/>
+            <SimpleField type="string" name="NUMERO_ART"/>
+            <SimpleField type="string" name="MIGRACAO_ID"/>
+            <SimpleField type="string" name="CODIGO"/>
+            <SimpleField type="string" name="REQUERIMENTO_ID"/>
+            <SimpleField type="string" name="MUNICIPIO_CODIGO"/>
+            <SimpleField type="string" name="MODULOS_FISCAIS"/>
+            <SimpleField type="string" name="PERCENTUAL_SIGEF"/>
+            <SimpleField type="string" name="AREA_HA"/>
+            <SimpleField type="string" name="SUSPENSOS"/>
+        </Schema>
+        <Folder>
+            <name>MVW_REQUERIMENTO_ATP</name>
+            <Placemark id="MVW_REQUERIMENTO_ATP.71886">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#MVW_REQUERIMENTO_ATP_1">
+                        <SimpleData name="OBJECTID">71886</SimpleData>
+                        <SimpleData name="NOMESPROPRIETARIOS">XXX680XXX00 - Alfredo Guilherme Dorca</SimpleData>
+                        <SimpleData name="NUMEROESTADUAL">MT226129/2022</SimpleData>
+                        <SimpleData name="CODIGO_CAR_FEDERAL">MT-5100201-8F712596F9A44043AAFFA932173854D3</SimpleData>
+                        <SimpleData name="PROTOCOLO">MT-5100201-F990.6BEE.DC61.7FE7.F3B2.55A9.989C.50E1</SimpleData>
+                        <SimpleData name="NOMEPROPRIEDADE">FAZENDA NOVA CANAÃ - MAT. 14.228</SimpleData>
+                        <SimpleData name="ATIVIDADE">[CAR]</SimpleData>
+                        <SimpleData name="SITUACAO">[CANCELADO]</SimpleData>
+                        <SimpleData name="CODIGO">744118</SimpleData>
+                        <SimpleData name="REQUERIMENTO_ID">301217</SimpleData>
+                        <SimpleData name="MUNICIPIO_CODIGO">5100201</SimpleData>
+                        <SimpleData name="MODULOS_FISCAIS">14.72</SimpleData>
+                        <SimpleData name="PERCENTUAL_SIGEF">100</SimpleData>
+                        <SimpleData name="AREA_HA">1177.7655</SimpleData>
+                        <SimpleData name="SUSPENSOS">0</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Polygon>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <tessellate>1</tessellate>
+                            <coordinates>-52.18360667,-14.22058778 -52.18430722,-14.221375 -52.18464056,-14.22211472 -52.18582806,-14.22177056 -52.18589194,-14.22232556 -52.1860975,-14.22272389 -52.18653778,-14.22250833 -52.18772833,-14.22267472 -52.18792306,-14.22293222 -52.18894528,-14.22269722 -52.18941583,-14.223015 -52.19022528,-14.22317444 -52.19124139,-14.2239 -52.19199444,-14.22415889 -52.19264083,-14.22423583 -52.19250861,-14.22519639 -52.19255778,-14.22595139 -52.1927525,-14.22632167 -52.19379583,-14.22628917 -52.19434778,-14.22585333 -52.19431056,-14.22664639 -52.19475667,-14.22654361 -52.19473028,-14.22598944 -52.19486806,-14.22668083 -52.19574028,-14.22657889 -52.19658194,-14.22675306 -52.19698917,-14.22640028 -52.19794,-14.226745 -52.19848861,-14.2268275 -52.19957833,-14.22658944 -52.199505,-14.22625722 -52.20019861,-14.22629833 -52.2004275,-14.22602361 -52.20199028,-14.22519722 -52.20333694,-14.22526639 -52.20446833,-14.22492333 -52.20411306,-14.22442639 -52.20520167,-14.22455278 -52.20638722,-14.2243875 -52.20723444,-14.22427861 -52.20752333,-14.22393806 -52.20896778,-14.22433806 -52.20931361,-14.22501167 -52.20997667,-14.22506917 -52.21053,-14.22516194 -52.21107139,-14.22477806 -52.21142611,-14.22438056 -52.2116325,-14.22454333 -52.21215556,-14.22465806 -52.21298111,-14.22479972 -52.21396333,-14.22490806 -52.21463111,-14.22487361 -52.21523167,-14.22518944 -52.21565389,-14.22573111 -52.21592,-14.22590417 -52.21653083,-14.22615528 -52.21656861,-14.22654722 -52.21736028,-14.22677889 -52.21726722,-14.22703944 -52.21773056,-14.2272625 -52.21870556,-14.22748028 -52.21631047,-14.23079065 -52.21391537,-14.23410102 -52.21152028,-14.23741139 -52.20912519,-14.24072176 -52.20673009,-14.24403213 -52.204335,-14.2473425 -52.20193991,-14.25065287 -52.19954481,-14.25396324 -52.19714972,-14.25727361 -52.19931917,-14.25851611 -52.20148861,-14.25975861 -52.20395216,-14.2563191 -52.20641571,-14.2528796 -52.20887926,-14.24944009 -52.21134281,-14.24600059 -52.21380636,-14.24256108 -52.21626991,-14.23912158 -52.21873346,-14.23568207 -52.22119701,-14.23224257 -52.22366056,-14.22880306 -52.22380056,-14.22883083 -52.22537028,-14.22974833 -52.22608361,-14.22970778 -52.22656444,-14.23016917 -52.22782556,-14.23060056 -52.22865444,-14.23128722 -52.22912583,-14.23133667 -52.22968583,-14.23141889 -52.23045694,-14.23172 -52.23085139,-14.23202417 -52.23135861,-14.23236722 -52.23206194,-14.23211472 -52.23245722,-14.23208083 -52.23298556,-14.23164083 -52.23059103,-14.23524083 -52.2281965,-14.23884083 -52.22580198,-14.24244083 -52.22340745,-14.24604083 -52.22101292,-14.24964083 -52.21861839,-14.25324083 -52.21622386,-14.25684083 -52.21382934,-14.26044083 -52.21143481,-14.26404083 -52.20904028,-14.26764083 -52.20732028,-14.26683083 -52.20445216,-14.26449486 -52.20158403,-14.26215888 -52.19871591,-14.25982291 -52.19584778,-14.25748694 -52.19790848,-14.25463583 -52.19996917,-14.25178472 -52.20202987,-14.24893361 -52.20409056,-14.2460825 -52.20090961,-14.24435733 -52.19772867,-14.24263217 -52.19454772,-14.240907 -52.19136678,-14.23918184 -52.18818583,-14.23745667 -52.18498958,-14.23571459 -52.18179333,-14.2339725 -52.17937986,-14.23265709 -52.17696639,-14.23134167 -52.17917982,-14.22775704 -52.18139324,-14.22417241 -52.18360667,-14.22058778</coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+        </Folder>
+    </Document>
+</kml>
